@@ -29,7 +29,7 @@ public class WebSteps {
 
     @Step
     public void clickIssuesTab() {
-        $(withText("Issies")).click();
+        $(withText("Issues")).click();
     }
 
     @Step

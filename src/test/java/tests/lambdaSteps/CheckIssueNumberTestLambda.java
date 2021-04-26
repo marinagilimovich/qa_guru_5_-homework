@@ -30,7 +30,7 @@ public class CheckIssueNumberTestLambda {
         });
 
         step("Going to Issues tab", () -> {
-            $(withText("Issies")).click();
+            $(withText("Issues")).click();
         });
 
         step("Looking for the issue", () -> {
